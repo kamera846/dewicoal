@@ -78,7 +78,7 @@
                             <div class="logo-box">
                                 <div class="logo">
                                     <!-- <a href="./"><img src="{{ asset('assets/images/tes.png') }}" alt="" /></a> -->
-                                    <a href="/"><h1 class="text-white">Loha</h1><p class="text-white">Desa Wisata</p></a>
+                                    <a href="/"><h1 class="text-white">Coal</h1><p class="text-white">Desa Wisata</p></a>
                                 </div>
                             </div>
                             <!--Nav Box-->
@@ -264,8 +264,8 @@
                                             <li>
                                                 <div class="icon"><img src="assets/images/icons/icon-1.png" alt="" /></div>
                                                 <div class="text">
-                                                    <strong>Lokasi</strong> Desa Loha, kecamatan Pacar,<br />
-                                                    kabupaten Manggarai Barat - NTT
+                                                    <strong>Lokasi</strong> Desa Coal, Kecamatan Kuwus<br />
+                                                    Kabupaten Manggrai Barat
                                                 </div>
                                             </li>
                                             <li>
