@@ -1,228 +1,129 @@
 @extends('layouts.main')
 
 @section('page-content')
-    <section class="page-title" style="background-image: url(assets/images/background/bg-9.jpg)">
-        <div class="auto-container">
-            <div class="content-box">
-                <div class="content-wrapper">
-                    <div class="title">
-                        <h1>Galeri.</h1>
-                    </div>
-                    <ul class="bread-crumb">
-                        <li><a href="./">Beranda</a></li>
-                        <li>Galeri</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
 
-    <!-- News section Three -->
-    <section class="news-section-three">
-        <div class="auto-container">
-            <div class="row">
-                <div class="col-lg-6 news-block">
-                    <div class="inner-box">
-                        <div class="image">
-                            <img src="assets/images/resource/news-1.jpg" alt=""/>
-                            <div class="overlay">
-                                <div class="link-btn">
-                                    <a href="assets/images/resource/news-1.jpg"><i class="icon-arrow"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="lower-content">
-                            <h4>
-                                <a href="blog-details.php"
-                                    >Assistance For Homes And <br />
-                                    Properties Real Estate</a
-                                >
-                            </h4>
-                            <div class="text">Dolore magna aliquat minim veniay quis nos exercitation ullamco laboris aliquip...</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 news-block">
-                    <div class="inner-box">
-                        <div class="image">
-                            <img src="assets/images/resource/news-2.jpg" alt="" />
-                            <div class="overlay">
-                                <div class="link-btn">
-                                    <a href="blog-details.php"><i class="icon-arrow"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="lower-content">
-                            <h4>
-                                <a href="blog-details.php"
-                                    >Long-Term Vision Of Health <br />
-                                    & Attractive Facility</a
-                                >
-                            </h4>
-                            <div class="text">Dolore magna aliquat minim veniay quis nos exercitation ullamco laboris aliquip...</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 news-block">
-                    <div class="inner-box">
-                        <div class="image">
-                            <img src="assets/images/resource/news-3.jpg" alt="" />
-                            <div class="overlay">
-                                <div class="link-btn">
-                                    <a href="blog-details.php"><i class="icon-arrow"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="lower-content">
-                            <h4>
-                                <a href="blog-details.php"
-                                    >Recreation Programs From <br />
-                                    Watery Landscapes</a
-                                >
-                            </h4>
-                            <div class="text">Dolore magna aliquat minim veniay quis nos exercitation ullamco laboris aliquip...</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 news-block">
-                    <div class="inner-box">
-                        <div class="image">
-                            <img src="assets/images/resource/news-9.jpg" alt="" />
-                            <div class="overlay">
-                                <div class="link-btn">
-                                    <a href="blog-details.php"><i class="icon-arrow"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="lower-content">
-                            <h4>
-                                <a href="blog-details.php"
-                                    >Assistance For Homes And <br />
-                                    Properties Real Estate</a
-                                >
-                            </h4>
-                            <div class="text">Dolore magna aliquat minim veniay quis nos exercitation ullamco laboris aliquip...</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 news-block">
-                    <div class="inner-box">
-                        <div class="image">
-                            <img src="assets/images/resource/news-10.jpg" alt="" />
-                            <div class="overlay">
-                                <div class="link-btn">
-                                    <a href="blog-details.php"><i class="icon-arrow"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="lower-content">
-                            <h4>
-                                <a href="blog-details.php"
-                                    >Long-Term Vision Of Health <br />
-                                    & Attractive Facility</a
-                                >
-                            </h4>
-                            <div class="text">Dolore magna aliquat minim veniay quis nos exercitation ullamco laboris aliquip...</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 news-block">
-                    <div class="inner-box">
-                        <div class="image">
-                            <img src="assets/images/resource/news-11.jpg" alt="" />
-                            <div class="overlay">
-                                <div class="link-btn">
-                                    <a href="blog-details.php"><i class="icon-arrow"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="lower-content">
-                            <h4>
-                                <a href="blog-details.php"
-                                    >Recreation Programs From <br />
-                                    Watery Landscapes</a
-                                >
-                            </h4>
-                            <div class="text">Dolore magna aliquat minim veniay quis nos exercitation ullamco laboris aliquip...</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 news-block">
-                    <div class="inner-box">
-                        <div class="image">
-                            <img src="assets/images/resource/news-12.jpg" alt="" />
-                            <div class="overlay">
-                                <div class="link-btn">
-                                    <a href="blog-details.php"><i class="icon-arrow"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="lower-content">
-                            <h4>
-                                <a href="blog-details.php"
-                                    >Assistance For Homes And <br />
-                                    Properties Real Estate</a
-                                >
-                            </h4>
-                            <div class="text">Dolore magna aliquat minim veniay quis nos exercitation ullamco laboris aliquip...</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 news-block">
-                    <div class="inner-box">
-                        <div class="image">
-                            <img src="assets/images/resource/news-13.jpg" alt="" />
-                            <div class="overlay">
-                                <div class="link-btn">
-                                    <a href="blog-details.php"><i class="icon-arrow"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="lower-content">
-                            <h4>
-                                <a href="blog-details.php"
-                                    >Long-Term Vision Of Health <br />
-                                    & Attractive Facility</a
-                                >
-                            </h4>
-                            <div class="text">Dolore magna aliquat minim veniay quis nos exercitation ullamco laboris aliquip...</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 news-block">
-                    <div class="inner-box">
-                        <div class="image">
-                            <img src="assets/images/resource/news-14.jpg" alt="" />
-                            <div class="overlay">
-                                <div class="link-btn">
-                                    <a href="blog-details.php"><i class="icon-arrow"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="lower-content">
-                            <h4>
-                                <a href="blog-details.php"
-                                    >Recreation Programs From <br />
-                                    Watery Landscapes</a
-                                >
-                            </h4>
-                            <div class="text">Dolore magna aliquat minim veniay quis nos exercitation ullamco laboris aliquip...</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Post Pagination -->
-            <ul class="post-pagination mt-5 mb-30">
-                <li class="prev-page">
-                    <a href="#"><i class="icon-arrow"></i></a>
+<!-- Start Page Title Area -->
+<div class="page-title-area bg-4">
+    <div class="container">
+        <div class="page-title-content">
+            <h2>Galeri</h2>
+
+            <ul>
+                <li>
+                    <a href="index.html"> Beranda </a>
                 </li>
-                <li class="current"><span> 1</span></li>
-                <li><a href="#">2</a></li>
-                <li><a href="#">3</a></li>
-                <li class="next-page">
-                    <a href="#"><i class="icon-arrow"></i></a>
-                </li>
+
+                <li class="active">Galeri</li>
             </ul>
         </div>
-    </section>
+    </div>
+</div>
+<!-- End Page Title Area -->
+
+<!-- Start Gallery Area -->
+<div class="gallery-area gallery-popup pt-100 pb-70">
+    <div class="container">
+        <div class="shorting">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 mix business">
+                    <div class="gallery-item">
+                        <img src="assets/images/gallery/gallery-1.jpg" alt="Image" />
+
+                        <div class="gallery-item-content">
+                            <h4>
+                                <a href="assets/images/gallery/gallery-1.jpg"> Office building lorem ipsum dolor </a>
+                            </h4>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus nostrum, blanditiis dicta enim, consectetur temporibus obcaecati numquam doloremque eveniet at quibusdam voluptatem laudantium eos
+                                officiis perspiciatis aliquid natus, ad quia?
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-md-6 mix event culture">
+                    <div class="gallery-item">
+                        <img src="assets/images/gallery/gallery-2.jpg" alt="Image" />
+
+                        <div class="gallery-item-content">
+                            <h4>
+                                <a href="assets/images/gallery/gallery-2.jpg"> Office garden lorem ipsum dolor </a>
+                            </h4>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus nostrum, blanditiis dicta enim, consectetur temporibus obcaecati numquam doloremque eveniet at quibusdam voluptatem laudantium eos
+                                officiis perspiciatis aliquid natus, ad quia?
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-md-6 mix culture">
+                    <div class="gallery-item">
+                        <img src="assets/images/gallery/gallery-3.jpg" alt="Image" />
+
+                        <div class="gallery-item-content">
+                            <h4>
+                                <a href="assets/images/gallery/gallery-3.jpg"> Office building lorem ipsum dolor </a>
+                            </h4>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus nostrum, blanditiis dicta enim, consectetur temporibus obcaecati numquam doloremque eveniet at quibusdam voluptatem laudantium eos
+                                officiis perspiciatis aliquid natus, ad quia?
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-md-6 mix government culture">
+                    <div class="gallery-item">
+                        <img src="assets/images/gallery/gallery-4.jpg" alt="Image" />
+
+                        <div class="gallery-item-content">
+                            <h4>
+                                <a href="assets/images/gallery/gallery-4.jpg"> Office gas lorem ipsum dolor </a>
+                            </h4>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus nostrum, blanditiis dicta enim, consectetur temporibus obcaecati numquam doloremque eveniet at quibusdam voluptatem laudantium eos
+                                officiis perspiciatis aliquid natus, ad quia?
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-md-6 mix culture event">
+                    <div class="gallery-item">
+                        <img src="assets/images/gallery/gallery-5.jpg" alt="Image" />
+
+                        <div class="gallery-item-content">
+                            <h4>
+                                <a href="assets/images/gallery/gallery-5.jpg"> Car ride lorem ipsum dolor </a>
+                            </h4>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus nostrum, blanditiis dicta enim, consectetur temporibus obcaecati numquam doloremque eveniet at quibusdam voluptatem laudantium eos
+                                officiis perspiciatis aliquid natus, ad quia?
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-md-6 mix business government">
+                    <div class="gallery-item">
+                        <img src="assets/images/gallery/gallery-6.jpg" alt="Image" />
+
+                        <div class="gallery-item-content">
+                            <h4>
+                                <a href="assets/images/gallery/gallery-6.jpg"> City view lorem ipsum dolor </a>
+                            </h4>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus nostrum, blanditiis dicta enim, consectetur temporibus obcaecati numquam doloremque eveniet at quibusdam voluptatem laudantium eos
+                                officiis perspiciatis aliquid natus, ad quia?
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Gallery Area -->
+
 @endsection

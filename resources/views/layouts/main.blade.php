@@ -1,328 +1,258 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <title>{{ $judul_halaman }}</title>
-        <!-- Stylesheets -->
-        <link href="{{ asset('assets/css/bootstrap.css') }}" rel="stylesheet" />
-        <link href="{{ asset('assets/css/style.css') }}" rel="stylesheet" />
-        <!-- Responsive File -->
-        <link href="{{ asset('assets/css/responsive.css') }}" rel="stylesheet" />
-        <!-- Color File -->
-        <link href="{{ asset('assets/css/color.css') }}" rel="stylesheet" />
+<html lang="zxx">
 
-        <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@400;700&family=Merriweather:ital@0;1&display=swap" rel="stylesheet" />
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
-        <!-- <link rel="shortcut icon" href="{{ asset('assets/images/favicon.png') }}" type="image/x-icon" />
-        <link rel="icon" href="{{ asset('assets/images/favicon.png') }}" type="image/x-icon" /> -->
+	<!-- Bootstrap Min CSS -->
+	<link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css') }}" />
+	<!-- Owl Theme Default Min CSS -->
+	<link rel="stylesheet" href="{{ asset('assets/css/owl.theme.default.min.css') }}" />
+	<!-- Owl Carousel Min CSS -->
+	<link rel="stylesheet" href="{{ asset('assets/css/owl.carousel.min.css') }}" />
+	<!-- Remixicon CSS -->
+	<link rel="stylesheet" href="{{ asset('assets/css/remixicon.css') }}" />
+	<!-- Flaticon CSS -->
+	<link rel="stylesheet" href="{{ asset('assets/css/flaticon.css') }}" />
+	<!-- Meanmenu Min CSS -->
+	<link rel="stylesheet" href="{{ asset('assets/css/meanmenu.min.css') }}" />
+	<!-- Animate Min CSS -->
+	<link rel="stylesheet" href="{{ asset('assets/css/animate.min.css') }}" />
+	<!-- Magnific Popup Min CSS -->
+	<link rel="stylesheet" href="{{ asset('assets/css/magnific-popup.min.css') }}" />
+	<!-- Odometer Min CSS -->
+	<link rel="stylesheet" href="{{ asset('assets/css/odometer.min.css') }}" />
+	<!-- Date Picker Min CSS -->
+	<link rel="stylesheet" href="{{ asset('assets/css/date-picker.min.css') }}" />
+	<!-- Style CSS -->
+	<link rel="stylesheet" href="{{ asset('assets/css/style.css') }}" />
+	<!-- Responsive CSS -->
+	<link rel="stylesheet" href="{{ asset('assets/css/responsive.css') }}" />
 
-        <!-- Responsive -->
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
-        <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
-        <!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
-    </head>
+	<!-- Favicon -->
+	<link rel="icon" type="image/png" href="{{ asset('assets/images/favicon.png') }}" />
+	<!-- Title -->
+	<title>Beranda</title>
+</head>
 
-    <body>
-        <div class="page-wrapper">
-            <!-- Preloader -->
-            <div class="loader-wrap">
-                <div class="preloader"><div class="preloader-close">Preloader Close</div></div>
-                <div class="layer layer-one"><span class="overlay"></span></div>
-                <div class="layer layer-two"><span class="overlay"></span></div>
-                <div class="layer layer-three"><span class="overlay"></span></div>
-            </div>
+<body>
+	<!-- Start Preloader Area -->
+	<div class="preloader">
+		<div class="lds-ripple">
+			<div class="pl-spark-1 pl-spark-2"></div>
+		</div>
+	</div>
+	<!-- End Preloader Area -->
 
-            <!-- Main Header -->
-            <header class="main-header header-style-one">
-                <!-- Header Top -->
-                <div class="header-top">
-                    <div class="auto-container">
-                        <div class="inner-container">
-                            <div class="left-column">
-                                <div class="text"><i class="icon-news"></i><a href="#">Latest City News</a> Coronavirus: Restrictions eased in parts of some islands</div>
-                            </div>
-                            <div class="right-column">
-                                <div class="phone">
-                                    <a href="tel:+18526105599"><i class="fas fa-phone-volume"></i>+1 852-610-5599</a>
-                                </div>
-                                <ul class="header-top-menu">
-                                    <li><a href="#">City Tour</a></li>
-                                    <li><a href="#">Join Us</a></li>
-                                    <li><a href="#">Get In Touch</a></li>
-                                </ul>
-                                <ul class="social-icon">
-                                    <li>
-                                        <a href="#"><i class="fab fa-twitter"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#"><i class="fab fa-instagram"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#"><i class="fab fa-pinterest-p"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+	<!-- Start Header Area -->
+	<header class="header-area">
+		<!-- Start Navbar Area -->
+		<div class="navbar-area">
+			<div class="mobile-responsive-nav">
+				<div class="container">
+					<div class="mobile-responsive-menu">
+						<div class="logo">
+							<a href="index.html">
+								<img src="{{ asset('assets/images/dewicoal.png') }}" alt="logo desa wisata coal" />
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
 
-                <!-- Header Upper -->
-                <div class="header-upper">
-                    <div class="auto-container">
-                        <div class="inner-container">
-                            <!--Logo-->
-                            <div class="logo-box">
-                                <div class="logo">
-                                    <!-- <a href="./"><img src="{{ asset('assets/images/tes.png') }}" alt="" /></a> -->
-                                    <a href="/"><h1 class="text-white">Coal</h1><p class="text-white">Desa Wisata</p></a>
-                                </div>
-                            </div>
-                            <!--Nav Box-->
-                            <div class="nav-outer">
-                                <!--Mobile Navigation Toggler-->
-                                <div class="mobile-nav-toggler"><img src="{{ asset('assets/images/icons/icon-bar-2.png') }}" alt="" /></div>
+			<div class="desktop-nav">
+				<div class="container">
+					<nav class="navbar navbar-expand-md navbar-light">
+						<a class="navbar-brand" href="/">
+							<img src="{{ asset('assets/images/dewicoal.png') }}" alt="logo desa wisata coal" />
+						</a>
 
-                                <!-- Main Menu -->
-                                <nav class="main-menu navbar-expand-md navbar-light">
-                                    <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
-                                        <ul class="navigation">
-                                            <li><a href="./">Beranda</a></li>
-                                            <li class="{{ ($judul_halaman === 'Tentang Kami | Desa Wisata Loha')?'current':'' }}"><a href="/about">Tentang Kami</a></li>
-                                            <li class="{{ ($judul_halaman === 'Galeri | Desa Wisata Loha')?'current':'' }}"><a href="/gallery">Galeri</a></li>
-                                            <li class="{{ ($judul_halaman === 'Blog | Desa Wisata Loha')?'current':'' }}"><a href="/blog">Blog</a></li>
-                                            <li class="{{ ($judul_halaman === 'Kontak Kami | Desa Wisata Loha')?'current':'' }}"><a href="/contact">Kontak</a></li>
-                                        </ul>
-                                    </div>
-                                </nav>
-                            </div>
-                            <div class="navbar-right">
-                                <div class="search-form-two">
-                                    <form>
-                                        <input type="search" placeholder="Ketikkan sesuatu ..." />
-                                        <button type="submit"><i class="icon-search"></i></button>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!--End Header Upper-->
+						<div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
+							<ul class="navbar-nav">
+								<li class="nav-item active">
+									<a href="/" class="nav-link">Beranda</a>
+								</li>
+								<li class="nav-item">
+									<a href="/about" class="nav-link">Tentang</a>
+								</li>
+								<li class="nav-item">
+									<a href="/gallery" class="nav-link">Galeri</a>
+								</li>
+								<li class="nav-item">
+									<a href="/blog" class="nav-link">Artikel</a>
+								</li>
+								<li class="nav-item">
+									<a href="/contact" class="nav-link">Kontak</a>
+								</li>
+							</ul>
 
-                <!-- Sticky Header  -->
-                <div class="sticky-header">
-                    <div class="header-upper">
-                        <div class="auto-container">
-                            <div class="inner-container">
-                                <!--Logo-->
-                                <div class="logo-box">
-                                    <div class="logo">
-                                        <!-- <a href="./"><img src="{{ asset('assets/images/logo.png') }}" alt="" /></a> -->
-                                        <a href="/"><h1 class="text-white">Loha</h1><p class="text-white">Desa Wisata</p></a>
-                                    </div>
-                                </div>
-                                <!--Nav Box-->
-                                <div class="nav-outer">
-                                    <!--Mobile Navigation Toggler-->
-                                    <div class="mobile-nav-toggler"><img src="assets/images/icons/icon-bar-2.png" alt="" /></div>
-                                    <!-- Main Menu -->
-                                    <nav class="main-menu navbar-expand-md navbar-light"></nav>
-                                </div>
-                                <div class="navbar-right">
-                                    <div class="search-form-two">
-                                        <form>
-                                            <input type="search" placeholder="Ketikkan sesuatu ..." />
-                                            <button type="submit"><i class="icon-search"></i></button>
-                                        </form>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- End Sticky Menu -->
+							<div class="others-options">
+								<ul>
+									<li>
+										<a href="tel:+6281353262678" class="call">
+											<i class="ri-phone-fill"></i>
+											+62 813 5326 2678
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</nav>
+				</div>
+			</div>
+		</div>
+		<!-- End Navbar Area -->
+	</header>
+	<!-- End Header Area -->
 
-                <!-- Mobile Menu  -->
-                <div class="mobile-menu">
-                    <div class="menu-backdrop"></div>
-                    <div class="close-btn"><span class="icon far fa-times-circle"></span></div>
+	@yield('page-content')
 
-                    <nav class="menu-box">
-                        <div class="nav-logo">
-                            <!-- <a href="./"><img src="{{ asset('assets/images/logo.png') }}" alt="" title="" /></a> -->
-                            <a href="/">Desa Wisata Loha</a>
-                        </div>
-                        <div class="menu-outer"><!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header--></div>
-                        <!--Social Links-->
-                        <div class="social-links">
-                            <ul class="clearfix">
-                                <li>
-                                    <a href="#"><span class="fab fa-twitter"></span></a>
-                                </li>
-                                <li>
-                                    <a href="#"><span class="fab fa-facebook-square"></span></a>
-                                </li>
-                                <li>
-                                    <a href="#"><span class="fab fa-pinterest-p"></span></a>
-                                </li>
-                                <li>
-                                    <a href="#"><span class="fab fa-instagram"></span></a>
-                                </li>
-                                <li>
-                                    <a href="#"><span class="fab fa-youtube"></span></a>
-                                </li>
-                            </ul>
-                        </div>
-                    </nav>
-                </div>
-                <!-- End Mobile Menu -->
+	<!-- Start Footer Area -->
+	<footer class="footer-area pt-100 pb-70">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3 col-md-6">
+					<div class="single-footer-widget single-bg">
+						<a href="index.html" class="logo">
+							<img src="{{ asset('assets/images/dewicoal-white.png') }}" alt="logo desa wisata coal" />
+						</a>
 
-                <div class="nav-overlay">
-                    <div class="cursor"></div>
-                    <div class="cursor-follower"></div>
-                </div>
-            </header>
-            <!-- End Main Header -->
+						<p class="mb-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+							incididunt ut labore et dolore magna.</p>
 
-            <!--Search Popup-->
-            <div id="search-popup" class="search-popup">
-                <div class="close-search theme-btn"><span class="far fa-times-circle"></span></div>
-                <div class="popup-inner">
-                    <div class="overlay-layer"></div>
-                    <div class="search-form">
-                        <form method="post" action="index.php">
-                            <div class="form-group">
-                                <fieldset>
-                                    <input type="search" class="form-control" name="search-input" value="" placeholder="Search Here" required />
-                                    <input type="submit" value="Search Now!" class="theme-btn" />
-                                </fieldset>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
+						<ul class="social-icon">
+							<li>
+								<a href="https://www.facebook.com/" target="_blank">
+									<i class="ri-facebook-fill"></i>
+								</a>
+							</li>
+							<li>
+								<a href="https://www.instagram.com/" target="_blank">
+									<i class="ri-instagram-line"></i>
+								</a>
+							</li>
+							<li>
+								<a href="https://twitter.com/" target="_blank">
+									<i class="ri-twitter-fill"></i>
+								</a>
+							</li>
+							<li>
+								<a href="https://twitter.com/" target="_blank">
+									<i class="ri-linkedin-box-fill"></i>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
 
-            {{-- page content --}}
-            @yield('page-content')
+				<div class="col-lg-2"></div>
 
-            <!-- Main  Footer -->
-            <footer class="main-footer">
-                <div class="auto-container">
-                    <!--Widgets Section-->
-                    <div class="widgets-section">
-                        <div class="row clearfix">
-                            <!--Column-->
-                            <div class="column col-lg-4 col-md-6">
-                                <div class="widget about-widget">
-                                    <h3 class="widget-title">Tentang Kami</h3>
-                                    <div class="text">Adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</div>
-                                    <ul class="social-links">
-                                        <li>
-                                            <a href="#"><i class="fab fa-twitter"></i></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><i class="fab fa-instagram"></i></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><i class="fab fa-pinterest-p"></i></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><i class="fab fa-youtube"></i></a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
+				<div class="col-lg-3 col-md-6">
+					<div class="single-footer-widget">
+						<h3>Navigasi</h3>
 
-                            <!--Column-->
-                            <div class="column col-lg-4 col-md-6">
-                                <div class="widget links-widget">
-                                    <h3 class="widget-title">Navigasi</h3>
-                                    <div class="widget-content">
-                                        <ul>
-                                            <li><a href="index.php">Beranda</a></li>
-                                            <li><a href="about.php">Tentang Kami</a></li>
-                                            <li><a href="gallery.php">Galeri</a></li>
-                                            <li><a href="blog.php">Blog</a></li>
-                                            <li><a href="contact.php">Kontak</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
+						<ul class="import-link">
+							<li>
+								<a href="/">Beranda</a>
+							</li>
+							<li>
+								<a href="/about">Tentang</a>
+							</li>
+							<li>
+								<a href="/blog">Artikel</a>
+							</li>
+							<li>
+								<a href="/gallery">Galeri</a>
+							</li>
+							<li>
+								<a href="/contact">Contact</a>
+							</li>
+						</ul>
+					</div>
+				</div>
 
-                            <!--Column-->
-                            <div class="column col-lg-4 col-md-6">
-                                <div class="widget contact-widget">
-                                    <h3 class="widget-title">Kontak Kami</h3>
-                                    <div class="widget-content">
-                                        <ul class="contact-info">
-                                            <li>
-                                                <div class="icon"><img src="assets/images/icons/icon-1.png" alt="" /></div>
-                                                <div class="text">
-                                                    <strong>Lokasi</strong> Desa Coal, Kecamatan Kuwus<br />
-                                                    Kabupaten Manggrai Barat
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="icon"><img src="assets/images/icons/icon-2.png" alt="" /></div>
-                                                <div class="text">
-                                                    <strong>Telepon</strong>
-                                                    <a href="tel:+62 823 3976 5401">+62 823 3976 5401</a>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="icon"><img src="assets/images/icons/icon-3.png" alt="" /></div>
-                                                <div class="text">
-                                                    <strong>Email</strong>
-                                                    <a href="mailto:munciple@example.net">munciple@example.net</a>
-                                                </div>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Footer Bottom -->
-                <div class="footer-bottom">
-                    <div class="auto-container">
-                        <div class="wrapper-box">
-                            <div class="copyright">
-                                <div class="text">© 1995-2020 <a href="#">GOVERNLIA</a> - The City Govt All rights reserved.</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </footer>
-        </div>
-        <!--End pagewrapper-->
+				<div class="col-lg-4 col-md-6">
+					<div class="single-footer-widget">
+						<h3>Semakin Dekat</h3>
 
-        <!--Scroll to top-->
-        <div class="scroll-to-top scroll-to-target" data-target="html"><span class="icon-arrow"></span></div>
+						<ul class="address">
+							<li>
+								<i class="ri-map-pin-fill"></i>
+								Desa Coal, Kecamatan Kuwus, <br />
+								Kabupaten Manggrai Barat - NTT
+							</li>
+							<li>
+								<i class="ri-mail-open-fill"></i>
+								<a href="mailto:info@wikin.com">info@wikin.com</a>
+							</li>
+							<li class="location">
+								<i class="ri-phone-fill"></i>
+								<a href="tel:+6281353262678">+62 813 5326 2678</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
 
-        <script src="{{ asset('assets/js/jquery.js') }}"></script>
-        <script src="{{ asset('assets/js/popper.min.js') }}"></script>
-        <script src="{{ asset('assets/js/bootstrap.min.js') }}"></script>
-        <script src="{{ asset('assets/js/bootstrap-select.min.js') }}"></script>
-        <script src="{{ asset('assets/js/jquery.fancybox.js') }}"></script>
-        <script src="{{ asset('assets/js/isotope.js') }}"></script>
-        <script src="{{ asset('assets/js/owl.js') }}"></script>
-        <script src="{{ asset('assets/js/appear.js') }}"></script>
-        <script src="{{ asset('assets/js/wow.js') }}"></script>
-        <script src="{{ asset('assets/js/lazyload.js') }}"></script>
-        <script src="{{ asset('assets/js/scrollbar.js') }}"></script>
-        <script src="{{ asset('assets/js/TweenMax.min.js') }}"></script>
-        <script src="{{ asset('assets/js/swiper.min.js') }}"></script>
-        <script src="{{ asset('assets/js/jquery.polyglot.language.switcher') }}.js"></script>
-        <script src="{{ asset('assets/js/jquery.ajaxchimp.min.js') }}"></script>
-        <script src="{{ asset('assets/js/parallax-scroll.js') }}"></script>
+		<div class="shape footer-shape-1">
+			<img src="{{ asset('assets/images/footer-shape-1.png') }}" alt="Image" />
+		</div>
 
-        <script src="{{ asset('assets/js/script.js') }}"></script>
-    </body>
+		<div class="shape footer-shape-2">
+			<img src="{{ asset('assets/images/footer-shape-2.png') }}" alt="Image" />
+		</div>
+	</footer>
+	<!-- End Footer Area -->
+
+	<!-- Start Copy Right Area -->
+	<div class="copy-right-area">
+		<div class="container">
+			<p>© 2022 <a href="/">COAL</a> - Powered by <a target="_blank"
+					href="https://jongkreatif.id/">JongKreatif</a>.</p>
+		</div>
+	</div>
+	<!-- End Copy Right Area -->
+
+	<!-- Start Go Top Area -->
+	<div class="go-top">
+		<i class="ri-arrow-up-s-fill"></i>
+		<i class="ri-arrow-up-s-fill"></i>
+	</div>
+	<!-- End Go Top Area -->
+
+	<!-- Jquery Min JS -->
+	<script src="{{ asset('assets/js/jquery.min.js') }}"></script>
+	<!-- Bootstrap Bundle Min JS -->
+	<script src="{{ asset('assets/js/bootstrap.bundle.min.js') }}"></script>
+	<!-- Meanmenu Min JS -->
+	<script src="{{ asset('assets/js/meanmenu.min.js') }}"></script>
+	<!-- Owl Carousel Min JS -->
+	<script src="{{ asset('assets/js/owl.carousel.min.js') }}"></script>
+	<!-- Owl Carousel Thumbs Min JS -->
+	<script src="{{ asset('assets/js/carousel-thumbs.min.js') }}"></script>
+	<!-- Wow Min JS -->
+	<script src="{{ asset('assets/js/wow.min.js') }}"></script>
+	<!-- Magnific Popup Min JS -->
+	<script src="{{ asset('assets/js/magnific-popup.min.js') }}"></script>
+	<!-- Appear Min JS -->
+	<script src="{{ asset('assets/js/appear.min.js') }}"></script>
+	<!-- Odometer Min JS -->
+	<script src="{{ asset('assets/js/odometer.min.js') }}"></script>
+	<!-- Mixitup Min JS -->
+	<script src="{{ asset('assets/js/mixitup.min.js') }}"></script>
+	<!-- Bootstrap Datepicker Min JS -->
+	<script src="{{ asset('assets/js/bootstrap-datepicker.min.js') }}"></script>
+	<!-- Form Validator Min JS -->
+	<script src="{{ asset('assets/js/form-validator.min.js') }}"></script>
+	<!-- Contact JS -->
+	<script src="{{ asset('assets/js/contact-form-script.js') }}"></script>
+	<!-- Ajaxchimp Min JS -->
+	<script src="{{ asset('assets/js/ajaxchimp.min.js') }}"></script>
+	<!-- Custom JS -->
+	<script src="{{ asset('assets/js/custom.js') }}"></script>
+</body>
+
 </html>

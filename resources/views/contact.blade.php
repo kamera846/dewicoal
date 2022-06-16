@@ -1,162 +1,115 @@
 @extends('layouts.main')
 
 @section('page-content')
-    <section class="page-title" style="background-image: url(assets/images/background/bg-9.jpg)">
-        <div class="auto-container">
-            <div class="content-box">
-                <div class="content-wrapper">
-                    <div class="title">
-                        <h1>Kontak Kami.</h1>
-                    </div>
-                    <ul class="bread-crumb">
-                        <li><a href="./">Beranda</a></li>
-                        <li>Kontak Kami</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
 
-    <!-- Contact Form section -->
-    <section class="contact-form-section">
-        <div class="auto-container">
-            <div class="wrapper-box">
+<!-- Start Page Title Area -->
+<div class="page-title-area bg-8">
+    <div class="container">
+        <div class="page-title-content">
+            <h2>Kontak</h2>
+
+            <ul>
+                <li>
+                    <a href="index.html"> Beranda </a>
+                </li>
+
+                <li class="active">Kontak</li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!-- End Page Title Area -->
+
+<!-- Start Map Area -->
+<div class="map-area pb-100">
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15781.630483764986!2d120.31678867940764!3d-8.556744132663864!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2db382bc86005533%3A0xa021653391381317!2sCoal%2C%20Kec.%20Kuwus%2C%20Kabupaten%20Manggarai%20Barat%2C%20Nusa%20Tenggara%20Tim.!5e0!3m2!1sid!2sid!4v1655204016791!5m2!1sid!2sid"
+    ></iframe>
+</div>
+<!-- End Map Area -->
+
+<!-- Start Contact Area -->
+<section class="main-contact-area pb-100">
+    <div class="container">
+        <div class="contact-bg">
+            <div class="contact-info">
                 <div class="row">
-                    <div class="col-lg-5">
-                        <div class="our-facts" style="background-image: url(assets/images/resource/image-54.jpg)">
-                            <div class="column counter-column">
-                                <div class="inner wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-                                    <div class="icon-outer">
-                                        <div class="icon"><span class="icon-ambulance"></span></div>
-                                    </div>
-                                    <div class="count-outer count-box">
-                                        <span class="count-text" data-speed="3000" data-stop="345">0</span>
-                                    </div>
-                                    <div class="text">
-                                        For Any Type of <br />
-                                        Medical Emergency
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="column counter-column">
-                                <div class="inner wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-                                    <div class="icon-outer">
-                                        <div class="icon"><span class="icon-police"></span></div>
-                                    </div>
-                                    <div class="count-outer count-box">
-                                        <span class="count-text" data-speed="3000" data-stop="911">0</span>
-                                    </div>
-                                    <div class="text">
-                                        For Police and <br />
-                                        Law Enforcement
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="column counter-column">
-                                <div class="inner wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-                                    <div class="icon-outer">
-                                        <div class="icon"><span class="icon-recyclebin"></span></div>
-                                    </div>
-                                    <div class="count-outer count-box">
-                                        <span class="count-text" data-speed="3000" data-stop="667">0</span>
-                                    </div>
-                                    <div class="text">
-                                        For Recycling And <br />
-                                        Garbage Related
-                                    </div>
-                                </div>
-                            </div>
+                    <div class="col-lg-4">
+                        <div class="single-contact-info">
+                            <h3>Lokasi</h3>
+                            <p>
+                                <i class="ri-map-pin-fill"></i>
+                                Desa Coal, Kecamatan Kuwus, <br />
+                                Kabupaten Manggrai Barat - NTT
+                            </p>
                         </div>
                     </div>
-                    <div class="col-lg-7">
-                        <div class="contact-form-area">
-                            <div class="sec-title mb-30">
-                                <h2>
-                                    Mencari Bantuan <br />
-                                    Atau Punya Pertanyaan
-                                </h2>
-                            </div>
-                            <div class="text mb-30">
-                                Enim ad minim veniam quis nostrud exercitation ullamco laboris aliquip <br />
-                                ex ea reprehenderit sint occaecat cupidata proids.
-                            </div>
-                            <!--Contact Form-->
-                            <div class="contact-form">
-                                <form method="post" target="_blank" id="contact-form">
-                                    <div class="row">
-                                        <div class="form-group col-md-12">
-                                            <input type="text" name="nama" placeholder="Your Name" required />
-                                        </div>
-                                        <div class="form-group col-md-12">
-                                            <input type="email" name="email" placeholder="Your Email" required />
-                                        </div>
-                                        <div class="form-group col-md-12">
-                                            <input type="text" name="subjek" placeholder="Subject" required />
-                                        </div>
-                                        <div class="form-group col-md-12">
-                                            <textarea name="pesan" placeholder="Message"></textarea>
-                                        </div>
-                                        <div class="form-group col-md-12">
-                                            <button class="theme-btn btn-style-one" type="submit" name="submit" data-loading-text="Please wait..."><span>Send Message</span></button>
-                                        </div>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
 
-    <!-- Contact Info section -->
-    <section class="contact-info-section">
-        <div class="auto-container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="contact-info-block">
-                        {{-- <iframe src="" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> --}}
-                        <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15781.630483765643!2d120.31678867292564!3d-8.556744132648005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2db382bc86005533%3A0xa021653391381317!2sCoal%2C%20Kec.%20Kuwus%2C%20Kabupaten%20Manggarai%20Barat%2C%20Nusa%20Tenggara%20Tim.!5e0!3m2!1sid!2sid!4v1654246172825!5m2!1sid!2sid"
-                            width="100%"
-                            height="450"
-                            style="border: 0"
-                            allowfullscreen=""
-                            loading="lazy"
-                            referrerpolicy="no-referrer-when-downgrade"
-                        ></iframe>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="contact-info-block">
-                        <h3>City Muncipal Office</h3>
-                        <div class="text mb-30">
-                            Fugiat nulla pariatur excepteur sint occaecat proident <br />
-                            sunt in culp mollit anim id est laborum.
+                    <div class="col-lg-4">
+                        <div class="single-contact-info">
+                            <h3>Telepon</h3>
+
+                            <p>
+                                <i class="ri-phone-fill"></i>
+                                <a href="tel:+6281353262678">+62 813 5326 2678</a>
+                            </p>
                         </div>
-                        <ul class="contact-info">
-                            <li>
-                                <div class="icon"><img src="assets/images/icons/icon-1.png" alt="" /></div>
-                                <div class="text"><strong>Lokasi</strong>Desa Coal, Kecamatan Kuwus, Kabupaten Manggrai Barat</div>
-                            </li>
-                            <li>
-                                <div class="icon"><img src="assets/images/icons/icon-2.png" alt="" /></div>
-                                <div class="text">
-                                    <strong>Telepon</strong>
-                                    <a href="tel:+1(345)2067849">+ 1 (345) 206 7849</a>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="icon"><img src="assets/images/icons/icon-3.png" alt="" /></div>
-                                <div class="text">
-                                    <strong>Email</strong>
-                                    <a href="mailto:munciple@example.net">munciple@example.net</a>
-                                </div>
-                            </li>
-                        </ul>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <div class="single-contact-info">
+                            <h3>Email</h3>
+
+                            <p>
+                                <i class="ri-mail-open-fill"></i>
+                                <a href="mailto:info@wikin.com">info@wikin.com</a>
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
+
+            <div class="section-title green-title">
+                <h2>Semakin Dekat</h2>
+                <p>Hubungi kami melalui <a target="_blank" href="https://api.whatsapp.com/send?phone=6281353262678">Whatsapp</a> dengan mengisi formulir yang ada di bawah ini</p>
+            </div>
+
+            <form id="contactForm">
+                <div class="row">
+                    <div class="col-lg-6 col-sm-6">
+                        <div class="form-group">
+                            <label>Nama anda</label>
+                            <input type="text" name="name" id="name" class="form-control" required data-error="Please enter your name" />
+                            <div class="help-block with-errors"></div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 col-sm-6">
+                        <div class="form-group">
+                            <label>Alamat email</label>
+                            <input type="email" name="email" id="email" class="form-control" required data-error="Please enter your email" />
+                            <div class="help-block with-errors"></div>
+                        </div>
+                    </div>
+
+                    <div class="col-12">
+                        <div class="form-group">
+                            <label>Isi pesan</label>
+                            <textarea name="message" class="form-control" id="message" cols="30" rows="8" required data-error="Write your message"></textarea>
+                            <div class="help-block with-errors"></div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-12 col-md-12">
+                        <button type="submit" class="default-btn">Kirim pesan</button>
+                        <div id="msgSubmit" class="h3 text-center hidden"></div>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+            </form>
         </div>
-    </section>
+    </div>
+</section>
+<!-- End Contact Area -->
+
 @endsection
