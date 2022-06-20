@@ -175,7 +175,7 @@
 
 				<div class="col-lg-4 col-md-6">
 					<div class="single-footer-widget">
-						<h3>Semakin Dekat</h3>
+						<h3>Lebih Dekat</h3>
 
 						<ul class="address">
 							<li>

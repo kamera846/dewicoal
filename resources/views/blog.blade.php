@@ -95,36 +95,6 @@
                     </div>
 
                     <div class="col-lg-12 col-md-6">
-                        <div class="single-blog-box active">
-                            <div class="blog-content">
-                                <ul>
-                                    <li>
-                                        <a href="#">
-                                            <i class="ri-user-3-fill"></i>
-                                            Marquart
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <i class="ri-calendar-line"></i>
-                                        February 10, 2021
-                                    </li>
-                                </ul>
-                                <h3>
-                                    <a href="/blog/slug"> Councils told to return millions in business grants </a>
-                                </h3>
-                                <p>
-                                    Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Nulla quis lorem ut libero malesuada feugiat. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Lorem ipsum
-                                    dolor sit amet, consectetur adipiscing elit. Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim. adipiscing elit
-                                </p>
-                                <a href="/blog/slug" class="read-more">
-                                    Read more
-                                    <i class="ri-arrow-right-s-line"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-12 col-md-6">
                         <div class="single-blog-box">
                             <a href="/blog/slug">
                                 <img src="assets/images/blog/blog-3.jpg" alt="Images" />
@@ -183,75 +153,74 @@
                         </form>
                     </div>
 
-                    <div class="sidebar-widget categories">
-                        <h3>Categories</h3>
+                    <div class="sidebar-widget recent-post">
+                        <h3>Recent Post</h3>
 
                         <ul>
                             <li>
                                 <a href="#">
-                                    Advertising permits
-                                    <i class="ri-arrow-right-s-line"></i>
+                                    <h4 class="fs-6">
+                                        Advertising permits
+                                    </h4>
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
-                                    Animal health and welfare
-                                    <i class="ri-arrow-right-s-line"></i>
+                                    <h4 class="fs-6">
+                                        Animal health and welfare
+                                    </h4>
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
-                                    Building and construction
-                                    <i class="ri-arrow-right-s-line"></i>
+                                    <h4 class="fs-6">
+                                        Building and construction
+                                    </h4>
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
-                                    Drainage services
-                                    <i class="ri-arrow-right-s-line"></i>
+                                    <h4 class="fs-6">
+                                        Drainage services
+                                    </h4>
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
-                                    Environmental services
-                                    <i class="ri-arrow-right-s-line"></i>
+                                    <h4 class="fs-6">
+                                        Environmental services
+                                    </h4>
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
-                                    Geographic information services
-                                    <i class="ri-arrow-right-s-line"></i>
+                                    <h4 class="fs-6">
+                                        Geographic information services
+                                    </h4>
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
-                                    Public health and safety
-                                    <i class="ri-arrow-right-s-line"></i>
+                                    <h4 class="fs-6">
+                                        Public health and safety
+                                    </h4>
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
-                                    Survey services
-                                    <i class="ri-arrow-right-s-line"></i>
+                                    <h4 class="fs-6">
+                                        Survey services
+                                    </h4>
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
-                                    Water supply
-                                    <i class="ri-arrow-right-s-line"></i>
+                                    <h4 class="fs-6">
+                                        Water supply
+                                    </h4>
                                 </a>
                             </li>
                         </ul>
-                    </div>
-
-                    <div class="sidebar-widget advertizing">
-                        <h3>Oleh Google</h3>
-
-                        <div class="advertizing-img">
-                            <a href="#">
-                                <img src="assets/images/blog-details/advertizing.jpg" alt="Image" />
-                            </a>
-                        </div>
                     </div>
                 </div>
             </div>

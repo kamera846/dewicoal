@@ -70,7 +70,7 @@
             </div>
 
             <div class="section-title green-title">
-                <h2>Semakin Dekat</h2>
+                <h2>Lebih Dekat</h2>
                 <p>Hubungi kami melalui <a target="_blank" href="https://api.whatsapp.com/send?phone=6281353262678">Whatsapp</a> dengan mengisi formulir yang ada di bawah ini</p>
             </div>
 

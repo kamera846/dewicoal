@@ -4091,7 +4091,7 @@ Sidebar Widget Style
     color: #00aa55;
 }
 
-.sidebar-widget.categories ul li {
+.sidebar-widget.recent-post ul li {
     position: relative;
     margin-bottom: 11.6px;
     font-size: 15px;
@@ -4100,27 +4100,30 @@ Sidebar Widget Style
     padding-bottom: 11.6px;
 }
 
-.sidebar-widget.categories ul li i {
+.sidebar-widget.recent-post ul li i {
     font-size: 15px;
     margin-right: 5px;
 }
 
-.sidebar-widget.categories ul li a {
+.sidebar-widget.recent-post ul li a {
     font-weight: 600;
     color: #3a3650;
 }
+.sidebar-widget.recent-post ul li a:hover {
+    color: #00aa55;
+}
 
-.sidebar-widget.categories ul li a i {
+.sidebar-widget.recent-post ul li a i {
     float: right;
     position: relative;
     top: 1px;
 }
 
-.sidebar-widget.categories ul li:hover a {
+.sidebar-widget.recent-post ul li a:hover {
     color: #00aa55;
 }
 
-.sidebar-widget.categories ul li:last-child {
+.sidebar-widget.recent-post ul li:last-child {
     margin-bottom: 0;
     padding-bottom: 0;
     border-bottom: none;

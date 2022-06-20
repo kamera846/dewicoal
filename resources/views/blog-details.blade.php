@@ -83,75 +83,74 @@
                         </form>
                     </div>
 
-                    <div class="sidebar-widget categories">
-                        <h3>Categories</h3>
+                    <div class="sidebar-widget recent-post">
+                        <h3>Recent Post</h3>
 
                         <ul>
                             <li>
                                 <a href="#">
-                                    Advertising permits
-                                    <i class="ri-arrow-right-s-line"></i>
+                                    <h4 class="fs-6">
+                                        Advertising permits
+                                    </h4>
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
-                                    Animal health and welfare
-                                    <i class="ri-arrow-right-s-line"></i>
+                                    <h4 class="fs-6">
+                                        Animal health and welfare
+                                    </h4>
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
-                                    Building and construction
-                                    <i class="ri-arrow-right-s-line"></i>
+                                    <h4 class="fs-6">
+                                        Building and construction
+                                    </h4>
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
-                                    Drainage services
-                                    <i class="ri-arrow-right-s-line"></i>
+                                    <h4 class="fs-6">
+                                        Drainage services
+                                    </h4>
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
-                                    Environmental services
-                                    <i class="ri-arrow-right-s-line"></i>
+                                    <h4 class="fs-6">
+                                        Environmental services
+                                    </h4>
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
-                                    Geographic information services
-                                    <i class="ri-arrow-right-s-line"></i>
+                                    <h4 class="fs-6">
+                                        Geographic information services
+                                    </h4>
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
-                                    Public health and safety
-                                    <i class="ri-arrow-right-s-line"></i>
+                                    <h4 class="fs-6">
+                                        Public health and safety
+                                    </h4>
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
-                                    Survey services
-                                    <i class="ri-arrow-right-s-line"></i>
+                                    <h4 class="fs-6">
+                                        Survey services
+                                    </h4>
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
-                                    Water supply
-                                    <i class="ri-arrow-right-s-line"></i>
+                                    <h4 class="fs-6">
+                                        Water supply
+                                    </h4>
                                 </a>
                             </li>
                         </ul>
-                    </div>
-
-                    <div class="sidebar-widget advertizing">
-                        <h3>Oleh Google</h3>
-
-                        <div class="advertizing-img">
-                            <a href="#">
-                                <img src="{{ asset('assets/images/blog-details/advertizing.jpg') }}" alt="Image" />
-                            </a>
-                        </div>
                     </div>
                 </div>
             </div>
