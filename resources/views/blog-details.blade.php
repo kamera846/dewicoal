@@ -34,10 +34,8 @@
                         <div class="news-content">
                             <ul class="admin">
                                 <li>
-                                    <a href="#">
-                                        <i class="ri-user-fill"></i>
-                                        Andrew lawson
-                                    </a>
+                                    <i class="ri-user-fill"></i>
+                                    Andrew lawson
                                 </li>
 
                                 <li>
@@ -84,60 +82,60 @@
                     </div>
 
                     <div class="sidebar-widget recent-post">
-                        <h3>Recent Post</h3>
+                        <h3>Artikel Terbaru</h3>
 
                         <ul>
                             <li>
-                                <a href="#">
+                                <a href="/blog/slug">
                                     <h4 class="fs-6">
                                         Advertising permits
                                     </h4>
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
+                                <a href="/blog/slug">
                                     <h4 class="fs-6">
                                         Animal health and welfare
                                     </h4>
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
+                                <a href="/blog/slug">
                                     <h4 class="fs-6">
                                         Building and construction
                                     </h4>
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
+                                <a href="/blog/slug">
                                     <h4 class="fs-6">
                                         Drainage services
                                     </h4>
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
+                                <a href="/blog/slug">
                                     <h4 class="fs-6">
                                         Environmental services
                                     </h4>
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
+                                <a href="/blog/slug">
                                     <h4 class="fs-6">
                                         Geographic information services
                                     </h4>
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
+                                <a href="/blog/slug">
                                     <h4 class="fs-6">
                                         Public health and safety
                                     </h4>
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
+                                <a href="/blog/slug">
                                     <h4 class="fs-6">
                                         Survey services
                                     </h4>

@@ -35,10 +35,8 @@
                             <div class="blog-content">
                                 <ul>
                                     <li>
-                                        <a href="#">
-                                            <i class="ri-user-3-fill"></i>
-                                            Cameron
-                                        </a>
+                                        <i class="ri-user-3-fill"></i>
+                                        Cameron
                                     </li>
                                     <li>
                                         <i class="ri-calendar-line"></i>
@@ -53,7 +51,7 @@
                                     dolor sit amet, consectetur adipiscing elit. Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim. adipiscing elit
                                 </p>
                                 <a href="/blog/slug" class="read-more">
-                                    Read more
+                                    Selengkapnya
                                     <i class="ri-arrow-right-s-line"></i>
                                 </a>
                             </div>
@@ -69,10 +67,8 @@
                             <div class="blog-content">
                                 <ul>
                                     <li>
-                                        <a href="#">
-                                            <i class="ri-user-3-fill"></i>
-                                            Bennett
-                                        </a>
+                                        <i class="ri-user-3-fill"></i>
+                                        Bennett
                                     </li>
                                     <li>
                                         <i class="ri-calendar-line"></i>
@@ -87,7 +83,7 @@
                                     dolor sit amet, consectetur adipiscing elit. Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim. adipiscing elit
                                 </p>
                                 <a href="/blog/slug" class="read-more">
-                                    Read more
+                                    Selengkapnya
                                     <i class="ri-arrow-right-s-line"></i>
                                 </a>
                             </div>
@@ -103,10 +99,8 @@
                             <div class="blog-content">
                                 <ul>
                                     <li>
-                                        <a href="#">
-                                            <i class="ri-user-3-fill"></i>
-                                            Marquart
-                                        </a>
+                                        <i class="ri-user-3-fill"></i>
+                                        Marquart
                                     </li>
                                     <li>
                                         <i class="ri-calendar-line"></i>
@@ -121,7 +115,7 @@
                                     dolor sit amet, consectetur adipiscing elit. Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim. adipiscing elit
                                 </p>
                                 <a href="/blog/slug" class="read-more">
-                                    Read more
+                                    Selengkapnya
                                     <i class="ri-arrow-right-s-line"></i>
                                 </a>
                             </div>
@@ -154,60 +148,60 @@
                     </div>
 
                     <div class="sidebar-widget recent-post">
-                        <h3>Recent Post</h3>
+                        <h3>Artikel Terbaru</h3>
 
                         <ul>
                             <li>
-                                <a href="#">
+                                <a href="/blog/slug">
                                     <h4 class="fs-6">
                                         Advertising permits
                                     </h4>
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
+                                <a href="/blog/slug">
                                     <h4 class="fs-6">
                                         Animal health and welfare
                                     </h4>
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
+                                <a href="/blog/slug">
                                     <h4 class="fs-6">
                                         Building and construction
                                     </h4>
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
+                                <a href="/blog/slug">
                                     <h4 class="fs-6">
                                         Drainage services
                                     </h4>
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
+                                <a href="/blog/slug">
                                     <h4 class="fs-6">
                                         Environmental services
                                     </h4>
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
+                                <a href="/blog/slug">
                                     <h4 class="fs-6">
                                         Geographic information services
                                     </h4>
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
+                                <a href="/blog/slug">
                                     <h4 class="fs-6">
                                         Public health and safety
                                     </h4>
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
+                                <a href="/blog/slug">
                                     <h4 class="fs-6">
                                         Survey services
                                     </h4>

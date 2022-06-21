@@ -25,83 +25,61 @@
     <div class="container">
         <div class="section-title">
             <h2>Eksplor Desa Kami</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore eveniet quod mollitia asperiores ullam dolor corporis. vero nemo consectetur</p>
+            <p>Disini anda bisa mendapatkan akses seperti layanan umum dan berbagai broduk lokal, serta ada juga tempat wisata.</p>
         </div>
 
         <div class="row justify-content-center">
-            <div class="col-xl-4 col-md-6 col-md-6">
+            <div class="col-lg-3 col-md-6">
                 <div class="single-services-box">
-                    <span class="flaticon-group"></span>
-
-                    <h3>Fasilitas dan Layanan</h3>
-
-                    {{-- <p>-kuliner - warung -areal parkir -home stay -kios souvenir</p> --}}
-
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero totam voluptate provident quod nemo accusantium dignissimos itaque cupiditate:
-                        <ul>
-                            <li>Lorem, ipsum.</li>
-                            <li>Lorem, ipsum.</li>
-                            <li>Lorem, ipsum.</li>
-                            <li>Lorem, ipsum.</li>
-                        </ul>
-                    </p>
-
-                    <div class="services-shape">
-                        <img src="assets/images/services-shape.png" alt="Image" />
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-xl-4 col-md-6 col-md-6">
-                <div class="single-services-box">
-                    <span class="flaticon-buildings"></span>
 
                     <h3>Spot Wisata</h3>
-
-                    {{-- <p>-spot foto/selfie -balai pertemuan -kamar mandi umum</p> --}}
-
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero totam voluptate provident quod nemo accusantium dignissimos itaque cupiditate:
-                        <ul>
-                            <li>Lorem, ipsum.</li>
-                            <li>Lorem, ipsum.</li>
-                            <li>Lorem, ipsum.</li>
-                            <li>Lorem, ipsum.</li>
-                        </ul>
+                        Bukit Porong, Air Terjun Cunca Sekas, Tour Kopi, dan Mengunjungi 5 Unsur kebudayaan Masyarakat Manggarai yaitu Mbaru Gendang, Natas Labar, Uma Duat, Wae Teku, dan Compang Takung.
                     </p>
-
 
                     <div class="services-shape">
                         <img src="assets/images/services-shape.png" alt="Image" />
                     </div>
                 </div>
             </div>
-
-            <div class="col-xl-4 col-md-6 col-md-6">
+            <div class="col-lg-3 col-md-6">
                 <div class="single-services-box">
-                    <span class="flaticon-government"></span>
 
-                    <h3>Souvenir dan Hasil Bumi</h3>
-
-                    {{-- <p>-spot foto/selfie -balai pertemuan -kamar mandi umum</p> --}}
-
+                    <h3>Makanan Khas & Hasil Bumi</h3>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero totam voluptate provident quod nemo accusantium dignissimos itaque cupiditate:
-                        <ul>
-                            <li>Lorem, ipsum.</li>
-                            <li>Lorem, ipsum.</li>
-                            <li>Lorem, ipsum.</li>
-                            <li>Lorem, ipsum.</li>
-                        </ul>
+                        Rebok Bukit Porong, Lemet, Sobol, dan Serabe. Buah mangga, nenas, jeruk, jambu, advokat, sayur ubi, sayur singkong, tanaman jahe, padi, kopi, cengkeh, tanaman cokelat, dan pohon aren.
                     </p>
-
 
                     <div class="services-shape">
                         <img src="assets/images/services-shape.png" alt="Image" />
                     </div>
                 </div>
             </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="single-services-box">
+
+                    <h3>Fasilitas dan Layanan</h3>
+                    <p>Areal Parkir, Balai Pertemuan, Homestay/Rumah Tinggal/Guest House, Kamar Mandi Umum, Kios Souvenir, Kuliner, Warung, Tempat Makan, Selfie Area, Spot Foto</p>
+
+                    <div class="services-shape">
+                        <img src="assets/images/services-shape.png" alt="Image" />
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="single-services-box">
+
+                    <h3>Souvenir</h3>
+                    <p>
+                        Pengunjung dapat membawa pulang hasill kerajinan tangan Tas Tradisional yang disebut Mbere, tikar, dan Bakuk atau wadah makanan. Selain itu tamu dapat membawa oleh-oleh khas Bukit Porong seperti Kopi Ntala, Rebok Bukit Porong, Gula Ndoso, Keripik Pisang Bukit Porong, dan Keripik Kopi.
+                    </p>
+
+                    <div class="services-shape">
+                        <img src="assets/images/services-shape.png" alt="Image" />
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
 </section>
@@ -166,7 +144,7 @@
     <div class="container">
         <div class="section-title">
             <h2>Acara Adat</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore eveniet quod mollitia asperiores ullam dolor corporis. vero nemo consectetur</p>
+            <p>Di desa kami juga ada beragam tradisi dan acara adat, berikut ada beberapa yang kami tangkap.</p>
         </div>
 
         <div class="row justify-content-center">

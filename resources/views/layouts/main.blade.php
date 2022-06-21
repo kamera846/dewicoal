@@ -167,7 +167,7 @@
 								<a href="/gallery">Galeri</a>
 							</li>
 							<li>
-								<a href="/contact">Contact</a>
+								<a href="/contact">Kontak</a>
 							</li>
 						</ul>
 					</div>
@@ -210,7 +210,7 @@
 	<!-- Start Copy Right Area -->
 	<div class="copy-right-area">
 		<div class="container">
-			<p>© 2022 <a href="/">COAL</a> - Powered by <a target="_blank"
+			<p>© {{ date('Y') }} <a href="/">COAL</a> - Powered by <a target="_blank"
 					href="https://jongkreatif.id/">JongKreatif</a>.</p>
 		</div>
 	</div>
