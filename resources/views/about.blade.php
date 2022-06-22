@@ -151,30 +151,18 @@
             <div class="col-lg-4 col-md-6">
                 <div class="single-councillor">
                     <img src="assets/images/councillor/councillor-1.jpg" alt="Image" />
-
-                    <div class="councillor-content">
-                        <h3>Steven Karnes Lorem ipsum dolor sit amet</h3>
-                    </div>
                 </div>
             </div>
 
             <div class="col-lg-4 col-md-6">
                 <div class="single-councillor">
                     <img src="assets/images/councillor/councillor-2.jpg" alt="Image" />
-
-                    <div class="councillor-content">
-                        <h3>Philip Thalis Lorem ipsum dolor sit, amet consectetur adipisicing.</h3>
-                    </div>
                 </div>
             </div>
 
             <div class="col-lg-4 col-md-6">
                 <div class="single-councillor">
                     <img src="assets/images/councillor/councillor-3.jpg" alt="Image" />
-
-                    <div class="councillor-content">
-                        <h3>Cameron Bennett Lorem ipsum dolor sit amet.</h3>
-                    </div>
                 </div>
             </div>
         </div>

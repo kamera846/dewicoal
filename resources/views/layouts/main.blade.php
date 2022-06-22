@@ -138,11 +138,6 @@
 									<i class="ri-twitter-fill"></i>
 								</a>
 							</li>
-							<li>
-								<a href="https://twitter.com/" target="_blank">
-									<i class="ri-linkedin-box-fill"></i>
-								</a>
-							</li>
 						</ul>
 					</div>
 				</div>
@@ -175,7 +170,7 @@
 
 				<div class="col-lg-4 col-md-6">
 					<div class="single-footer-widget">
-						<h3>Lebih Dekat</h3>
+						<h3>Hubungi Kami</h3>
 
 						<ul class="address">
 							<li>
